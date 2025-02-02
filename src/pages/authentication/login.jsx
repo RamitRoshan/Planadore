@@ -1,0 +1,24 @@
+import { Link } from 'react-router-dom';
+
+// material-ui
+import Grid from '@mui/material/Grid';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+
+// project import
+import AuthWrapper from './AuthWrapper';
+import AuthLogin from './auth-forms/AuthLogin';
+
+// ================================|| LOGIN ||================================ //
+
+export default function Login() {
+  return (
+    <AuthWrapper>
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <AuthLogin />
+        </Grid>
+      </Grid>
+    </AuthWrapper>
+  );
+}
