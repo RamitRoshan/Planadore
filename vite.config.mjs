@@ -7,7 +7,7 @@ import jsconfigPaths from 'vite-jsconfig-paths';
 
 export default defineConfig({
   plugins: [react(), jsconfigPaths()],
-  base: '/Planadore',
+  base: '/',
   define: {
     global: 'window'
   },
